@@ -25,3 +25,8 @@ def animation_call(i):
 anim = FuncAnimation(fig, animation_call, frames=200, interval=50)
 
 plt.show()
+
+
+# books = Book.objects.select_related('author').all()
+# authors = Author.objects.prefetch_related('books').all()
+
